@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link href="css/navbar.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <!--#include file="navbar.shtml"-->
+    </div>
+    </div>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Martin John Hadley</h1>
+        <p>You know, for tag lines.</p>
+      </div>
+    </div> 
+      <div>
+      <iframe src="//www.mendeley.com/groups/7579091/live-data-project/widget/17/3/" frameborder="0" allowTransparency="true" style="width:260px;height:550px;"></iframe><p style="width:260px"><a href="http://www.mendeley.com/groups/7579091/live-data-project/" title="Live Data Project on Mendeley">Live Data Project</a> is a group in <a href="https://www.mendeley.com/groups/physics/" title="Physics on Mendeley">Physics</a> on <a href="https://www.mendeley.com/" title="Mendeley">Mendeley</a>.</p>
+      </div>
+    <div class="learn-more">
+	  <div class="container">
+		<div class="row">
+	      <div class="col-md-4">
+			<h3>Study</h3>
+			<p>I studied biophysics at University of Leeds</p>
+	      </div>
+		  <div class="col-md-4">
+			<h3>Research</h3>
+			<p>I research biomineralisationb at University of Leeds and University of Birmingham</p>
+		  </div>
+		  <div class="col-md-4">
+			<h3>Work</h3>
+			<p>I've worked at Wolfram, NewOrbit and Oxford University</p>
+		  </div>
+	    </div>
+	  </div>
+	</div>
+      
+          <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>

@@ -11,23 +11,15 @@
 
   <body>
     <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Bio</a></li>
-          <li><a href="#">Publications</a></li>
-          <li><a href="#">Meetings</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Links</a></li>
-        </ul>
-      </div>
+    <div class="container">
+        <!--#include file="navbar.shtml"-->
+         <!--#echo var="DATE_LOCAL" -->
     </div>
-
+    </div>
     <div class="jumbotron">
       <div class="container">
-        <h1>Martin John Hadley</h1>
+          <h1><!--#echo var="DATE_LOCAL" --></h1>
+        <h1><!--#echo var="DATE_LOCAL" -->Martin John Hadley</h1>
         <p>You know, for tag lines.</p>
       </div>
     </div> 
