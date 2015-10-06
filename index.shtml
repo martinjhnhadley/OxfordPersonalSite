@@ -1,55 +1,114 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    
+<head>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link href="css/navbar.css" rel="stylesheet">
-    
-  </head>
 
-  <body>
-    <nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <!--#include file="navbar.shtml"-->
-    </div>
-    </div>
+</head>
+
+
+
+<body>
+    <nav class="navbar navbar-default navbar-inverse" role="navigation">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
+                    <span class="button-label" style="color:#FFFFFF">Menu</span>
+                    <div class="button-bars">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div>
+                </button>
+
+                <a class="navbar-brand" href=http://users.ox.ac.uk/~ouit0409/>Martin John Hadley</a>
+            </div>
+            <div id="navigationbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href=http://users.ox.ac.uk/~ouit0409/about.shtml>About</a></li>
+                    <li><a href="#about">CV</a></li>
+                    <li><a href="#contact">Publications</a></li>
+                    <li><a href="#contact">Meetings</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Research Data Management Roadmap</a></li>
+                            <li><a href="#">Live Data</a></li>
+                            <li><a href="#">Mendeley</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Github Projects</li>
+                            <li><a href="#">Github Profile</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../navbar/">Links</a></li>
+                </ul>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="jumbotron">
-      <div class="container">
-        <h1>Martin John Hadley</h1>
-        <p>You know, for tag lines.</p>
-      </div>
-    </div> 
-      <div>
-      <iframe src="//www.mendeley.com/groups/7579091/live-data-project/widget/17/3/" frameborder="0" allowTransparency="true" style="width:260px;height:550px;"></iframe><p style="width:260px"><a href="http://www.mendeley.com/groups/7579091/live-data-project/" title="Live Data Project on Mendeley">Live Data Project</a> is a group in <a href="https://www.mendeley.com/groups/physics/" title="Physics on Mendeley">Physics</a> on <a href="https://www.mendeley.com/" title="Mendeley">Mendeley</a>.</p>
-      </div>
-    <div class="learn-more">
-	  <div class="container">
-		<div class="row">
-	      <div class="col-md-4">
-			<h3>Study</h3>
-			<p>I studied biophysics at University of Leeds</p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Research</h3>
-			<p>I research biomineralisationb at University of Leeds and University of Birmingham</p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Work</h3>
-			<p>I've worked at Wolfram, NewOrbit and Oxford University</p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
-      
-          <!-- Bootstrap core JavaScript
+        <div class="container">
+            <h1>Martin John Hadley</h1>
+            <p>You know, for tag lines.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="css/images/profile-pic.jpeg" class="img-responsive" style="max-width=10%">
+            </div>
+            <div class="col-md-9">
+                <p>I'm a technology and data science evangelist, having worked in both industry and academia to promote the use of interactive technologies for education and the sharing of knowledge.</p>
+                <p>
+                    Since August 2015 I've worked at the University of Oxford as an Academic Research Technology Specialist with a special interest in data visualisation and analysis using scripting languages.
+                </p>
+                <p>My background is in STEM and scientific computation, pulling from a diverse range of interdisciplinary physical sciences with an enthusiasm and proven capability to engage with complex projects and deliver results.</p>
+                <p>
+                    This site contains information about my academic research, research support projects and side projects.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="learn-more2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Study</h3>
+                    <p>Studied for an MPhys, specialising in biophyics, at University of Leeds from 2006 to 2010.</p>
+                    <img src="css/images/UniOfLeedsCrest.svg" class="center-block" width="100px">
+                </div>
+                <div class="col-md-4">
+                    <h3>Research</h3>
+                    <p>Researched the biomineralisation of iron oxide MNPs at University of Birmingham and Leeds from 2010 to 2012.</p>
+                    <img src="css/images/UniOfBirminghamCrest.png" class="center-block"  width="100px">
+                </div>
+                <div class="col-md-4">
+                    <h3>Work</h3>
+                    <p>Currently working at Oxford University in Academic IT Research Support, previously worked at Wolfram as a Technical Consultant.</p>
+                    <img src="css/images/work-logos.png" class="center-block" width="250px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+</body>
+
 </html>

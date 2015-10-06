@@ -1,5 +1,5 @@
 body {
-  min-height: 2000px;
+  min-height: 200px;
 }
 
 .navbar-static-top {
@@ -18,3 +18,6 @@ body {
     float: left;
 }
 
+.navbar-inverse{
+    margin-bottom: 0px;    
+}
