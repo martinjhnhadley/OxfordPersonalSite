@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link href="css/navbar.css" rel="stylesheet">
+
+
+    <!--- datatable scripts --->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.9/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/1.0.7/js/dataTables.responsive.min.js"></script>
+    <!--- Datatable css --->
+    <link href="https://cdn.datatables.net/1.10.9/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/responsive/1.0.7/css/responsive.bootstrap.min.css" rel="stylesheet">
+
+
+
+    <!--- Initialise data table --->
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable();
+        });
+    </script>
+    
+
+
+</head>
+
+
+
+<body>
+    <nav class="navbar navbar-default navbar-inverse" role="navigation">
+        <div class="container">
+            <!--#include file="navbar.shtml"-->
+
+
+
+        </div>
+    </nav>
+    <div class="container">
+<h1>Live Data Project</h1>
+        <div class="row">
+            <div class="col-md-8">
+                <h3>Background</h3>
+                <p>Research output has a reputation for being impenetrable and isolative, often with researchers in neighbouring labs unaware that they're working on similiar problems missing out on potentially powerful collaboration opportunities. Despite pressure from funders and public bodies for Open Access and Open Data, the meat of research output is still locked behind domain specific nonmeclature and the infamously terse third-person rhetoric of the academic literature.</p>
+                <p>Data visualisations are the simplest way to both communicate and understand research output, immediately accessible to both a general and domain-specific audience. Modern web technologies provide the ability to move beyond simple data visualisations. Instead of providing a snapshot into a dataset or predictive mdoel it's possible to build interactive elements that allow the entire dataset to be explored through filters and for model parameter sensitivity to be dynamically investigated. These interactive visualisations allow users to test and clarify their own understanding of the data, rather than accepting research findings from a limited snapshot of the data.</p>
+            </div>
+            <div class="col-md-4" style="text-align:center">
+<iframe src="http://embed.vida.io/documents/FDpES7LvPoELji2Qy" width="300" height="300" seamless frameBorder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+    <div>
+    <div class="container">
+                        <h3>Project</h3>
+                <p>The Live Data Project has been funded by the Research IT Board to promote the use of Interactive Data Visualisation to researchers at the University of Oxford from every division; MPLS, Social Sciences, Humanities and the Arts. I'm Project Manager for the Live Data Project and I'm enthusiastic about both building visualisations with researchers and creating a vibrant community of visualisation evangelists.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <!--#include file="footer.shtml"-->
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>

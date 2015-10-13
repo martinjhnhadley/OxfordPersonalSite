@@ -15,7 +15,18 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: #5a5a5a;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
+#foottable tr td:empty {
+    width: 10px;
+}
+
+/* Table word wrap */
+
+
 
 /* Everything else */
 

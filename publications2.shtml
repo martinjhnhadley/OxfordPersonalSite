@@ -1,0 +1,92 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+    
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link href="css/navbar.css" rel="stylesheet">
+    
+    
+
+</head>
+<body>
+    
+        <nav class="navbar navbar-default navbar-inverse" role="navigation">
+        <div class="container">
+            <!--#include file="navbar.shtml"-->
+
+            <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="button-label">Menu</span>
+        <div class="button-bars">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </div>
+    </button>
+
+    <a class="navbar-brand" href=http://users.ox.ac.uk/~ouit0409/>Martin John Hadley</a>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li><a href=index.shtml>About</a></li>
+        <li><a href="CV">CV</a></li>
+        <li><a href="publications.shtml">Publications</a></li>
+        <li><a href="contact">Meetings</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Research Data Management Roadmap</a></li>
+                <li><a href="#">Live Data</a></li>
+                <li><a href="#">Mendeley</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Github Projects</li>
+                <li><a href="#">Github Profile</a></li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="../navbar/">Links</a></li>
+    </ul>
+
+    </ul>
+</div>
+
+
+
+        </div>
+    </nav>
+    <div>
+  <table id="example">
+    <thead>
+      <tr><th>Sites</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>SitePoint</td></tr>
+      <tr><td>Learnable</td></tr>
+      <tr><td>Flippa</td></tr>
+    </tbody>
+  </table>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+  <script>
+  $(function(){
+    $("#example").dataTable();
+  })
+  </script>
+    </div>
+    
+        <footer class="footer">
+        <div class="container">
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

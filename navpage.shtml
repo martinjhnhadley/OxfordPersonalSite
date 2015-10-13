@@ -43,14 +43,14 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href=http://users.ox.ac.uk/~ouit0409/about.shtml>About</a></li>
+            <li class="active"><a href=index.shtml>About</a></li>
             <li><a href="#about">CV</a></li>
-            <li><a href="#contact">Publications</a></li>
+            <li><a href="publications.shtml">Publications</a></li>
               <li><a href="#contact">Meetings</a></li>
               <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Research Data Management Roadmap</a></li>
+                <li><a href="RDMRoadmap.shtml">Research Data Management Roadmap</a></li>
                 <li><a href="#">Live Data</a></li>
                 <li><a href="#">Mendeley</a></li>
                 <li role="separator" class="divider"></li>
