@@ -1,13 +1,3 @@
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-62551361-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 <div class="navbar-header">
     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -19,23 +9,29 @@
         </div>
     </button>
 
-    <a class="navbar-brand" href=index.shtml>Martin John Hadley</a>
+    <a class="navbar-brand" href=http://users.ox.ac.uk/~ouit0409/index.shtml>Martin John Hadley</a>
 </div>
 <div id="navbar" class="navbar-collapse collapse">
     <ul class="nav navbar-nav">
-        <li><a href="publications.shtml">Publications</a></li>
-        <li><a href="presentations-and-meetings.shtml">Presentations and Meetings</a></li>
+        <li><a href="http://users.ox.ac.uk/~ouit0409/publications.shtml">Publications</a></li>
+        <li><a href="http://users.ox.ac.uk/~ouit0409/presentations-and-meetings.shtml">Presentations and Meetings</a></li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li><a href="RDMRoadmap.shtml">Research Data Management Roadmap</a></li>
-                <li><a href="LiveDataProject.shtml">Live Data</a></li>
+                <li><a href="http://users.ox.ac.uk/~ouit0409/RDMRoadmap.shtml">Research Data Management Roadmap</a></li>
+                <li><a href="http://users.ox.ac.uk/~ouit0409/LiveDataProject.shtml">Live Data</a></li>
                 <li role="separator" class="divider"></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+            <a href="./visualisations/visualisations.shtml" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visualisations<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li><a href="http://users.ox.ac.uk/~ouit0409/visualisations/basicD3.shtml">D3.js</a></li>
             </ul>
         </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-        <li><a href="links.shtml">Links</a></li>
+        <li><a href="./links.shtml">Links</a></li>
     </ul>
 
     </ul>
