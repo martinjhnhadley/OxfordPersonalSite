@@ -31,13 +31,11 @@
                 <li><a href="RDMRoadmap.shtml">Research Data Management Roadmap</a></li>
                 <li><a href="LiveDataProject.shtml">Live Data</a></li>
                 <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Github Projects</li>
-                <li><a href="#">Github Profile</a></li>
             </ul>
         </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-        <li><a href="../navbar/">Links</a></li>
+        <li><a href="links.shtml">Links</a></li>
     </ul>
 
     </ul>

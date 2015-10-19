@@ -32,7 +32,7 @@
     <div class="jumbotron">
         <div class="container">
             <h1>Martin John Hadley</h1>
-            <p>You know, for tag lines.*</p> <!-- *I always groan at ElasticSearche's tagline-->
+            <p><h3 style="color:#fff">You know, for tag lines.*</h3></p> <!-- *I always groan at ElasticSearche's tagline-->
         </div>
     </div>
     <div class="container">
