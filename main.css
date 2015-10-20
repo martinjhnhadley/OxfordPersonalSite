@@ -50,7 +50,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url('images/acicular-mnps1.png');
+    background-image: url('css/images/acicular-mnps1.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;

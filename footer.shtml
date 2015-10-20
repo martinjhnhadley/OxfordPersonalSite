@@ -18,17 +18,17 @@
         <tbody>
             <tr>
                 <td>
-                    <a href="https://twitter.com/martinjhnhadley"><img src="css/images/Twitter_logo_white_48.gif" /></a>
+                    <a href="https://twitter.com/martinjhnhadley"><img src="./css/images/Twitter_logo_white_48.gif" /></a>
                 </td>
                 <td></td>
                 <td>
-                    <a href="https://uk.linkedin.com/in/martinjohnhadley"><img src="css/images/In-White-41px-TM.gif" /></a>
+                    <a href="https://uk.linkedin.com/in/martinjohnhadley"><img src="./css/images/In-White-41px-TM.gif" /></a>
                 </td>
                 <td>
-                    <a href="http://orcid.org/0000-0002-3039-6849"><img src="css/images/orcid_64x64.gif" width="40px" /></a>
+                    <a href="http://orcid.org/0000-0002-3039-6849"><img src="./css/images/orcid_64x64.gif" width="40px" /></a>
                 </td>
                 <td>
-                    <a href="https://github.com/martinjhnhadley"><img src="css/images/GitHub-Mark-Light-64px.gif" width="40px" /></a>
+                    <a href="https://github.com/martinjhnhadley"><img src="./css/images/GitHub-Mark-Light-64px.gif" width="40px" /></a>
                 </td>
             </tr>
         </tbody>

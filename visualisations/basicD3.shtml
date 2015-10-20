@@ -141,7 +141,7 @@ var sampleHTML = d3.select("#imported")
         </script>
     </div>
         <footer class="footer">
-        <!--#include virtual="./footer.shtml" -->
+        <!--#include virtual="../footer.shtml" -->
     </footer>
 
 </body>
