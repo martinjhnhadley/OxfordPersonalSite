@@ -76,6 +76,9 @@
                         <h3>Project</h3>
                 <p>The Live Data Project has been funded by the Research IT Board to promote the use of Interactive Data Visualisation to researchers at the University of Oxford from every division; MPLS, Social Sciences, Humanities and the Arts. I'm Project Manager for the Live Data Project and I'm enthusiastic about both building visualisations with researchers and creating a vibrant community of visualisation evangelists.</p>
         </div>
+        <div>
+        <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~martinjhnhadley/303.embed"></iframe>
+        </div>
         <div class="container">
         <p>Schneiderman's Mantra</p>
             <ul>
