@@ -58,6 +58,26 @@
         <h1>Plotly Visualisations</h1>
         <p>Bunch of tests</p>
     </div>
+    
+    <div class="container">
+    <h2>Internal Array Test</h2>
+        <div id="internal-array"></div>
+        <script type="text/javascript">
+        var trace1 = {
+ 	      x: [1, 2, 3, 4], 
+          y: [10, 15, 13, 17], 
+          type: 'scatter'
+        };
+        var trace2 = {
+          x: [1, 2, 3, 4], 
+          y: [16, 5, 11, 9], 
+          type: 'scatter'
+        };
+        var data = [trace1, trace2];
+        Plotly.newPlot('internal-array', data);
+        </script>
+    </div>
+    
     <div class="container">
 
         <h2>Duplicated plot</h2>
@@ -166,19 +186,32 @@
         <div id="interactive-salaries-div"></div>
 
         <script type="text/javascript">
-            Plotly.d3.csv("https://gist.githubusercontent.com/martinjhnhadley/f45835cf58de7d1609e0/raw/cd997c26d5f89f470a5682d687be946a0dc66224/uk-fulltime-salaries-2014.csv", function (err, data) {
+            Plotly.d3.csv("https://gist.githubusercontent.com/martinjhnhadley/f45835cf58de7d1609e0/raw/cd997c26d5f89f470a5682d687be946a0dc66224/uk-fulltime-salaries-2014.csv", function (err, data){
 
                 var listOfAgeRanges = ["18 to 21", "22 to 29"];
+
+                var dictionary = {}
+
+                listOfAgeRanges(function(x){
+                    dictionary.push(
+                        x : data.map(function(d) {
+                        return +d["18 to 21"];
+                    }))
+                })
+
+                
+
+                console.log(dictionary)
 
                 /*Set default age range*/
                 setSalaryChart('18 to 21');
 
                 function setSalaryChart(chosenAgeRange) {
-                    /* Columns are extracted using a data.map function */
-                    var xCol = data.map(function (d) {
+                    /* Columns are extracted using data.map */
+                    var xCol = data.map(function(d) {
                         return +d["18 to 21"];
                     });
-                    var yCol = data.map(function (d) {
+                    var yCol = data.map(function(d) {
                         return +d["Percentile"];
                     });
 
@@ -223,6 +256,10 @@
             });
         </script>
 
+    </div>
+
+    <div class="container">
+        <p>This is the end</p>
     </div>
 
     <footer class="footer">
