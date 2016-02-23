@@ -65,6 +65,17 @@ $(document).ready(function() {
                 </thead>
 
                 <tbody>
+                    
+                    
+                    <tr>
+                        <td>Visualizing Prosopographical Data based on Correspondences</td>
+                        <td>Presentation</td>
+                        <td>Workshop on Biographical Linked Data and Prosopography</td>
+                        <td>2015/04/02</td>
+                        <td style="text-align:center;"><a href="http://seco.cs.aalto.fi/events/2016/2016-01-22-oxford/">Workshop Program</a>
+                        </td>
+                        <td>Workshop for the Reassembling the Republic of Letters EU COST Action project, where I spoke about using interactive data visualisations for exploring and testing a research data model.</td>
+                    </tr>
                     <tr>
                         <td>Mathematica for Quantitative Finance</td>
                         <td>Training</td>
